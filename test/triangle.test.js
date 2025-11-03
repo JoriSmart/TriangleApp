@@ -19,3 +19,9 @@ describe('Testing the Triangle Functions', function() {
         expect(t3.getArea()).to.equal(24);
         done();
     });
+    
+    it('4. The perimeter of the Triangle', function(done) {
+        let t4 = new Triangle(3, 4);
+        expect(t4.getPerimeter()).to.equal(12);
+        done();
+    });
